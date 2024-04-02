@@ -1,0 +1,45 @@
+Script started on 2024-04-02 13:18:16+03:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="92" LINES="31"]
+[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
+[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
+$ docker run -d nginx
+[?2004l[6n[6n[m[?25ha9a18da0a02e1084bf7850ab8b2ba13cb051e8ed8fbce6004f2a486ea6b04d6f
+[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
+[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
+$ doc[K[K[Kdocker run -d nginx
+[?2004l[6n[m[?25h9a54fe6b5c8f551a354d6beb02b08aef673f03e0d8c01cdf0e141db3ef57dd9d
+[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
+[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
+$ docker run -d nginx
+[?2004l[6n[m[?25h57f5c5185efff09e5ec5eb2f3221676ca925ac4d7b354c48e8866744b0e679f8
+[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
+[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
+$ git [K[K[K[Kdocker ps -a
+[?2004l[6n[m[?25hCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS    
+[30;92H  NAMES
+57f5c5185eff   nginx     "/docker-entrypoint.…"   7 seconds ago    Up 7 seconds    80/tcp   
+[30;92H  blissful_dhawan
+9a54fe6b5c8f   nginx     "/docker-entrypoint.…"   10 seconds ago   Up 9 seconds    80/tcp   
+[30;92H  gifted_bose
+a9a18da0a02e   nginx     "/docker-entrypoint.…"   13 seconds ago   Up 13 seconds   80/tcp   
+[30;92H  frosty_hopper
+[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
+[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
+$ docker stop 5 9
+[?2004l[6n[m[?25h5
+9
+[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
+[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
+$ clear
+[?2004l[H[2J[3J[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
+[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
+$ docker ps -a
+[?2004l[6n[m[?25hCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                   [K  PORTS     NAMES
+57f5c5185eff   nginx     "/docker-entrypoint.…"   31 seconds ago   Exited (0) 6 seconds ago             blissful_dhawan
+9a54fe6b5c8f   nginx     "/docker-entrypoint.…"   34 seconds ago   Exited (0) 6 seconds ago             gifted_bose
+a9a18da0a02e   nginx     "/docker-entrypoint.…"   37 seconds ago   Up 36 seconds            [K  80/tcp    frosty_hopper
+[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
+[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
+$ exit
+[?2004lexit
+
+Script done on 2024-04-02 13:19:17+03:00 [COMMAND_EXIT_CODE="0"]
