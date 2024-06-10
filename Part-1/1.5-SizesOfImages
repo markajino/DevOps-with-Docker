@@ -1,0 +1,10 @@
+
+$ docker pull devopsdockeruh/simple-web-service:alpine
+
+$ docker run -d -it --rm --name alpine fd312adc88e0
+
+$ docker exec -it alpine sh
+
+/usr/src/app # tail -f ./text.log
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
