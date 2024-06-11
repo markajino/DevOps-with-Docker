@@ -1,63 +1,7 @@
-Script started on 2024-04-02 13:26:07+03:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="92" LINES="31"]
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ docker container [K[K[K[K[K[K[K[K[K[K[K ps -a
-[?2004l[6n[6n[m[?25hCONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                    [K PORTS     NAMES
-57f5c5185eff   nginx     "/docker-entrypoint.…"   7 minutes ago   Exited (0) 7 minutes ago             blissful_dhawan
-9a54fe6b5c8f   nginx     "/docker-entrypoint.…"   7 minutes ago   Exited (0) 7 minutes ago             gifted_bose
-a9a18da0a02e   nginx     "/docker-entrypoint.…"   7 minutes ago   Up 7 minutes              [K 80/tcp    frosty_hopper
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ docker image ls
-[?2004l[6n[m[?25hREPOSITORY   TAG       IMAGE ID       CREATED       SIZE
-nginx        latest    92b11f67642b   6 weeks ago   187MB
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ docker rmi [K[K[K[Kstop[K[K[K[Krm 5 0[K9 a
-[?2004l[6n[m[?25h5
-9
-Error response from daemon: cannot remove container "/frosty_hopper": container is running: 
-[30;92H stop the container before removing or force remove
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ dok[Kcer[K[Kker stop a
-[?2004l[6n[m[?25ha
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ docker rm a
-[?2004l[6n[m[?25ha
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ docker ps a[K-a
-[?2004l[6n[m[?25hCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ docker images
-[?2004l[6n[m[?25hREPOSITORY   TAG       IMAGE ID       CREATED       SIZE
-nginx        latest    92b11f67642b   6 weeks ago   187MB
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ docker rmi 92
-[?2004l[6n[m[?25hUntagged: nginx:latest[?25l
-Untagged: nginx@sha256:6db391d1c0cfb30588ba0bf72ea999404f2764febf0f1f196acd5867ac7efa7e     [31;88H[?25h
-Deleted: sha256:92b11f67642b62bbb98e7e49169c346b30e20cd3c1c034d31087e46924b9312e
-Deleted: sha256:d9e826dbb4b3c5770fe92638baa8c6614f210d782a5d021a123fe9fa1f92c23d
-Deleted: sha256:2a75285e888884bed4d630896c86ecd71739c6e82669e21ad7a050f33c9ac48d
-Deleted: sha256:32bfe3f040358ab8f9872a63d4ddefdc68f35d991ca10a812cbac5912ae9f97b
-Deleted: sha256:1330486eb62ea7e96f384961b77b0fc85f5d4422e761114ef3a72e7cb89751a4
-Deleted: sha256:a375372209a0f2b2c697a52cce46bc41b495bf86184ae83dd5146e20c22078eb
-Deleted: sha256:450787ca55caa59d0288de9cf36fc6b77d1b208a77eb837ec3d25b385f99cafb
-Deleted: sha256:a483da8ab3e941547542718cacd3258c6c705a63e94183c837c9bc44eb608999
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ clear
-[?2004l[H[2J[3J[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ clear[C[Cdocker rmi 92images
-[?2004l[6n[m[?25hREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
-[?2004h]0;/cygdrive/c/workdir/DevOpsWithDocker
-[32mg_markozanis@NP-DES097 [33m/cygdrive/c/workdir/DevOpsWithDocker[0m
-$ exit
-[?2004lexit
+$ docker ps -a
 
-Script done on 2024-04-02 13:27:15+03:00 [COMMAND_EXIT_CODE="0"]
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+
+$ docker image ls
+
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
